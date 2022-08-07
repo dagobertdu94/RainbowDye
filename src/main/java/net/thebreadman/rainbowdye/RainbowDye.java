@@ -16,6 +16,7 @@ public class RainbowDye {
     public static final String MOD_ID = "rainbowdye";
     private static final Logger LOGGER = LogUtils.getLogger();
 
+    // Very important comment
     public RainbowDye() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
