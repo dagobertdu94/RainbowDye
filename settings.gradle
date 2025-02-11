@@ -1,6 +1,7 @@
 pluginManagement {
     repositories {
         gradlePluginPortal()
+<<<<<<< HEAD
         maven {
             name = 'MinecraftForge'
             url = 'https://maven.minecraftforge.net/'
@@ -10,4 +11,8 @@ pluginManagement {
 
 plugins {
     id 'org.gradle.toolchains.foojay-resolver-convention' version '0.7.0'
+=======
+        maven { url = 'https://maven.minecraftforge.net/' }
+    }
+>>>>>>> branch 'master' of git@github.com:dagobertdu94/RainbowDye.git
 }

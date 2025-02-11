@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "rainbowdye:block/rainbow_concrete"
+      },
+      {
+        "model": "rainbowdye:block/rainbow_concrete",
+        "y": 90
+      },
+      {
+        "model": "rainbowdye:block/rainbow_concrete",
+        "y": 180
+      },
+      {
+        "model": "rainbowdye:block/rainbow_concrete",
+        "y": 270
+      }
+    ]
+  }
+}

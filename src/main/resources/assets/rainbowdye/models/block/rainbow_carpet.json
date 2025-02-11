@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/carpet",
+  "textures": {
+    "wool": "rainbowdye:block/rainbow_wool"
+  }
+}
