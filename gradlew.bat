@@ -26,10 +26,7 @@ if "%OS%"=="Windows_NT" setlocal
 
 set DIRNAME=%~dp0
 if "%DIRNAME%"=="" set DIRNAME=.
-<<<<<<< HEAD
 @rem This is normally unused
-=======
->>>>>>> branch 'master' of git@github.com:dagobertdu94/RainbowDye.git
 set APP_BASE_NAME=%~n0
 set APP_HOME=%DIRNAME%
 
