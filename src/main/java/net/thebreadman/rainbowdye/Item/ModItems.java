@@ -13,7 +13,7 @@ public class ModItems {
             DeferredRegister.create(ForgeRegistries.ITEMS, RainbowDye.MOD_ID);
 
     public static final RegistryObject<Item> RAINBOW_DYE = ITEMS.register("rainbow_dye",
-            () -> new RainbowDyeItem(new Item.Properties().tab(ModCreativeModeTab.RAINBOW_DYE_TAB)));
+            () -> new RainbowDyeItem(new Item.Properties()));
 
     public static void register (IEventBus eventBus) {
         ITEMS.register(eventBus);

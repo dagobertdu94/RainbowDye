@@ -21,13 +21,13 @@ public class RainbowDyeItem extends Item {
 
         if (livingEntity instanceof Sheep sheep) {
             if (sheep.isAlive() && !sheep.isSheared() && true) {
-                sheep.level.playSound(player, sheep, SoundEvents.DYE_USE, SoundSource.PLAYERS, 1.0F, 1.0F);
-                if (!player.level.isClientSide) {
+                sheep.level().playSound(player, sheep, SoundEvents.DYE_USE, SoundSource.PLAYERS, 1.0F, 1.0F);
+                if (!player.level().isClientSide) {
                     //ModSheepFurLayer.isRainbow();
                     itemStack.shrink(1);
                 }
 
-                return InteractionResult.sidedSuccess(player.level.isClientSide);
+                return InteractionResult.sidedSuccess(player.level().isClientSide);
             }
         }
 

@@ -8,6 +8,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.thebreadman.rainbowdye.Item.ModCreativeModeTab;
 import net.thebreadman.rainbowdye.Item.ModItems;
 import net.thebreadman.rainbowdye.block.ModBlocks;
 import org.slf4j.Logger;
@@ -23,6 +24,7 @@ public class RainbowDye {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        ModCreativeModeTab.CREATIVE_MOD_TABS.register(modEventBus);
         //ModBlockEntities.register(modEventBus);
 
         /*EntityRenderers.register(EntityType.SHEEP, ModSheepRenderer::new);
